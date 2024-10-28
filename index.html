@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted class="pg1-bg" src="chips.mp4"></video>
+    <div class="bg-cover"></div>
+    <div class="follower"></div>
+    <div class="page1">
+        <!-- <div class="cover"></div>
+        <div class="bg-img"></div> -->
+        <div class="navbar">
+            <h2>Port-Folio</h2>
+            <ul class="nav-list">
+                <li>Home</li>
+                <li>About</li>
+                <li onclick=project()>Projects</li>
+                <li onclick=linkedin()>Contact</li>
+            </ul>
+        </div>
+        <div class="p1_content">
+            <div class="p1_text">
+                <h1 style="color: white;">Hey, I am <span>Kunal</span> <br> A passionate CS undergrad trying to be better than yesterday</h1>
+            </div>
+            <div class="p1_img">
+
+            </div>
+        </div>
+    </div>
+    <div class="page2">
+        <h1 style=" display:flex; align-items:center; justify-content:center; color: white; border:2px solid white; height: 6%;">Skills to Build, Create, and Innovate</h1>
+        <div class="banner">
+            <div class="slider" style="--quantity: 10">
+                <div class="item" style="--position: 1"><img src="images/img1pythonnew.webp" alt=""></div>
+                <div class="item" style="--position: 2"><img src="images/img2html.png" alt=""></div>
+                <div class="item" style="--position: 3"><img src="images/img3css.png" alt=""></div>
+                <div class="item" style="--position: 4"><img src="images/img4js.png" alt=""></div>
+                <div class="item" style="--position: 5"><img src="images/img4nodenew.png" alt=""></div>
+                <div class="item" style="--position: 6"><img src="images/img6cpp.webp" alt=""></div>
+                <div class="item" style="--position: 7"><img src="images/img7c.png" alt=""></div>
+                <div class="item" style="--position: 8"><img src="images/img8new.jpg" alt=""></div>
+                <div class="item" style="--position: 9"><img src="images/img9.jpeg" alt=""></div>
+                <div class="item" style="--position: 10"><img src="images/img10.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="page3">
+        <!-- carousel -->
+        <div class="carousel">
+            <!-- list item -->
+            <div class="list">
+                <div class="item">
+                    <img src="image/img1jarvisnew.png">
+                    <div class="content">
+                        <div class="author">#My Projects</div>
+                        <div class="title">Jarvis</div>
+                        <div class="topic">Python</div>
+                        <div class="des">
+                            This is a voice assistant which performs basic tasks like opening any application<br> webpage , playing any music, all on voice commands. This is made by using python libraries like gTTS, os, webbrowser and Sound Library
+                        </div>
+                        <div class="buttons">
+                            <button>Github</button>
+                            <button>Linkedin</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img2gunshot.png">
+                    <div class="content">
+                        <div class="author">#My Projects</div>
+                        <div class="title">Gunshot Fire Detection</div>
+                        <div class="topic">Python</div>
+                        <div class="des">
+                            This project was made by me for SIH-24 <br> this uses device's microphone to detect the frequency and intensity of a gunshot fired nearby
+                        </div>
+                        <div class="buttons">
+                            <button>Github</button>
+                            <button>Linkedin</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img3neutonix.png">
+                    <div class="content">
+                        <div class="author">#My Projects</div>
+                        <div class="title">Newtonix</div>
+                        <div class="topic">WebDev</div>
+                        <div class="des">
+                            This is a startup i am currently working on, <br> which uses knowledge of HTML, CSS and Javascript with sufficient Backend for proper Login/Logout functioning of users, a secure website with password encription and decryption. Users can Login/sign-up and can start learning through lectures and various resources.
+                        </div>
+                        <div class="buttons">
+                            <button>Github</button>
+                            <button>Linkedin</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img4genai.png">
+                    <div class="content">
+                        <div class="author">#My Projects</div>
+                        <div class="title">GenAi</div>
+                        <div style="color: black;" class="topic">WebDev</div>
+                        <div  style="color: black;" class="des">
+                            This website was made for Gen-AI hackathon with smooth scrolling using locomotive js and cool animations which are eye catching, this project enhanced my perspective of Frontend upskilled me a lot.
+                        </div>
+                        <div class="buttons">
+                            <button>Github</button>
+                            <button>Linkedin</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- list thumnail -->
+            <div class="thumbnail">
+                <div class="item">
+                    <img src="image/img1jarvisnew.png">
+                    <div class="content">
+                        <div class="title">
+                            Jarvis
+                        </div>
+                        <div class="description">
+                            This is a voice assistant which performs basic tasks like opening any application<br> webpage , playing any music, all on voice commands.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img2gunshot.png">
+                    <div class="content">
+                        <div class="title">
+                            This project was made by me for SIH-24 <br> this uses device's microphone to detect the frequency and intensity of a gunshot fired nearby
+                        </div>
+                        <div class="description">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img3cover.png">
+                    <div class="content">
+                        <div class="title">
+                            Newtonix
+                        </div>
+                        <div class="description">
+                            This is a startup i am currently working on,<br>with Frontend and Backend, with password encription and decryption.
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img4genai.png">
+                    <div class="content">
+                        <div style="color: black;" class="title">
+                            Gen-AI
+                        </div>
+                        <div style="color: black;" class="description">
+                            This website was made for Gen-AI hackathon with smooth scrolling using locomotive js and cool animations which are eye catching, this project enhanced my perspective of Frontend upskilled me a lot.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- next prev -->
+    
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!-- time running -->
+            <div class="time"></div>
+        </div>
+    
+
+    </div>
+    <footer>
+        <div class="policy">
+            <h1 style=" text-align:center; color: rgb(95, 94, 94); font-weight: 300;">Policies</h1>
+            <ul>
+                <li>cookies policy</li>
+                <li>Legal Terms</li>
+                <li>Privacy Policy</li>
+            </ul>
+           
+        </div>
+        <div class="contact">
+            <h1 style=" text-align:center; color: rgb(95, 94, 94); font-weight: 300;">Contact me</h1>
+            <p>1kvats9@gmail.com</p>
+        </div>
+        <div class="icons">
+            <h1 style="color: rgb(95, 94, 94); font-weight: 300;">Connect</h1>
+            <div class="links">
+                <i onclick=linkedin() class="fa-brands fa-linkedin-in" style="color: #5f5e5e;"></i>
+                <i onclick=project() class="fa-brands fa-github" style="color: #5f5e5e;"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
