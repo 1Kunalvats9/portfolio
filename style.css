@@ -41,6 +41,7 @@
     justify-content: center;
     /* background:linear-gradient(180deg,rgb(255, 255, 255),rgb(200, 240, 200)); */
     background: url(chips.mov);
+    background-color:black;
 }
 .pg1-bg{
     position: absolute;
