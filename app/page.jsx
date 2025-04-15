@@ -1,13 +1,12 @@
 "use client";
-import { NavbarComp } from "./components/Navbar";
 import { AuroraBackground } from "./components/ui/AuroraBg"
 import { motion } from "motion/react";
-import { SparklesCore } from "./components/ui/sparkles";
 import { LampDemo } from "./components/ui/lamp";
 import { Card } from "./components/ui/card-hover-effect";
 import { CardHoverEffectDemo } from "./components/Skills";
 import { TimelineDemo } from "./components/TimelineDemo";
 import Footer from "./components/Footer";
+import { VortexDemo } from "./components/Vortex";
 export default function Page() {
   return (
     <div className="w-full">
@@ -39,6 +38,9 @@ export default function Page() {
       </div>
       <div className="w-full min-h-screen bg-[#18181B]">
         <TimelineDemo />
+      </div>
+      <div className="w-full min-h-screen flex items-center justify-center bg-[#000]">
+        <VortexDemo />
       </div>
       <Footer />
     </div>

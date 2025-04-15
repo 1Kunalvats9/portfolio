@@ -5,7 +5,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#18181B] bt-2 bt-white text-gray-300 py-8">
+    <footer className="bg-[#000] bt-2 bt-white text-gray-300 py-8">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center space-x-6 mb-4">
           <Link href="https://github.com/1Kunalvats9" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-300 hover:text-cyan-400 transition duration-300">
